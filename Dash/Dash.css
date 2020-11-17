@@ -98,5 +98,23 @@ body {
   }
 
   .logout{
-    
+    width: 10%;    
+    margin-left: 90%;
   }
+
+  .fa-sign-out-alt:before {
+    content: "\f2f5";
+    font-size: 40px;
+    
+    color: black;
+   
+}
+i:hover, i:active{
+  color:  rgba(0, 225, 255, 0.603);
+}
+
+.fa-plus-circle:before {
+  content: "\f055";
+  font-size: 40px;
+
+}
