@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anime List</title>
+    <link href="login.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <form action="/action_page.php">
-        <h1>Login Form</h1>
-        <div class="formcontainer">
-        <hr/>
-        <div class="container">
-          <label for="uname"><strong>Username</strong></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-          <label for="psw"><strong>Password</strong></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-        </div>
-        <button type="submit">Login</button>
-        <div class="container" style="background-color: #eee">          
-          <span class="psw"><a href="#"> Forgot password?</a></span>
-        </div>
-      </form>    
+    <h1 class = 'Title'>OtakuRisuto</h1>
+        <h2 class = "Login">Login</h2>
+    <form>
+        <label for= "name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Saske uchiha"> </input><br>
+        <label for="Password">Password</label><br>
+        <input type="text" id="Password"></input><br>
+
+        <a href="../Dash/Dash.html">
+            <button>Login</button>
+        </a><br>
+    </form>
+    <a href="new">forgot Password</a>
 </body>
 </html>
